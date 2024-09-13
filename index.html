@@ -83,12 +83,12 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-
-        <!-- Project details -->
+        
+         <!-- Project details -->
         <div class="project-details">
             <h2>Project Overview</h2>
             <p>
-                I’ve been working on a side project called the "Hyper Search Engine," which helps me navigate my massive, unorganized JavaScript codebase (part of my cycling routing website, <a href="https://sherpa-map.com">Sherpa Map</a>). The goal is to create a semantic search engine that retrieves functions and variables based on vague recollections, bypassing traditional documentation (which I never really made). I developed a multi-step process that leverages GPT-4, Babel ASTs, T5 models, and vector embeddings for fast and intelligent code search.
+                I’ve been working on a side project called the "Hyper Search Engine," which helps me navigate my massive, unorganized JavaScript codebase (which is part of another side project of mine, a cycling routing platform, <a href="https://sherpa-map.com">Sherpa Map</a>). The goal is to create a semantic search engine that retrieves functions and variables based on vague recollections, bypassing traditional documentation (which I never really made). I developed a multi-step process that leverages GPT-4, Babel ASTs, T5 models, and vector embeddings for fast and intelligent code search.
             </p>
             <p>
                 The first step is parsing the code with Babel to create an Abstract Syntax Tree (AST) for every file. This allows deep analysis of the code, extracting scopes, functions, variables, and their relationships. After parsing, I use the GPT-4 API to generate summaries and keywords for each function and variable, which then becomes the training data for two fine-tuned T5 models.
@@ -103,6 +103,7 @@
                 I built this tool to avoid writing traditional documentation, which often goes out of date. The Hyper Search Engine automates the process of documenting and understanding the codebase, making it easy to search for functions and variables based on how I remember them or based on their context within the code.
             </p>
         </div>
+
 
     </div>
 
